@@ -8,14 +8,10 @@ Python is used to extract information from SQL and create dataframes that are su
 
 Stephan_Muhin_movie.sql contains SQL related cleaning data of the movie table and seperates atomic values for normalisation purposes.
 
-Storm_01_normalize_movie.sql contains the junction tables to normalize columns with multiple valeus per movie.
+Storm_01_normalize_movie.sql contains the junction tables to normalize columns with multiple values per movie.
 
 Storm_02_box_office.sql contains SQL code to prepare and connect box_office information to the movie dataset. The datasets are linked through an URL reference
 
-thomas_expert_review_complete.sql
+thomas_expert_review_complete.sql: Contains SQL used to prepare and structure the expert review data.
 
-Contains SQL used to prepare and structure the expert review data.
-
-thomas_user_review_complete.sql
-
-Similiar to expert:Contains SQL used to prepare and structure the user review data.
+thomas_user_review_complete.sql: Similiar to expert, contains SQL used to prepare and structure the user review data.
